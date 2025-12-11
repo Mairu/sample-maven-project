@@ -26,6 +26,6 @@ class SimpleTest extends Specification {
             client.get().uri("/test")
                 .exchange()
                 .expectStatus().isOk()
-                .expectBody().json('"Hello World2"')
+                .expectBody().json('"Hello World"')
     }
 }
